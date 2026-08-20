@@ -14,8 +14,7 @@ if st.button("คำณวนค่า BMI 🎯"):
   st.write("---")
   st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
   
-if st.button
-  bmi < 18.5:
+if st.bmi < 18.5:
   st.warning("⚠️ คุณมีน้ำหนักน้อยกว่าเกณฑ์ (ผอม)")
 elif 18.5 <= bmi < 23.0:
   st.success("🎉 คุณมีน้ำหนักในเกณฑ์ปกติ (สุขภาพดี)")
